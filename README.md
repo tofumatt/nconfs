@@ -25,6 +25,22 @@ Usage
     // Load extra confs:
     var conf = require('nconfs').load('extras.json')
 
+Works like [`nconf`](https://github.com/flatiron/nconf) otherwise:
+
+	'use strict'
+
+	var express = require('express')
+	var conf = require('nconfs').load()
+
+	var app = express.createServer()
+
+	app.get('/', function(req, res) {
+	    res.send('Hello World')
+	});
+
+	app.listen(conf.get('port'))
+
+
 Yup.
 
 Thanks to [@zalun](https://twitter.com/zalun) for inspiring me to write/lazily
