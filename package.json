@@ -1,7 +1,7 @@
 {
   "name": "nconfs",
-  "description": "A node.js convention/library for supporting multiple nconf settings with inheritance.",
-  "version": "0.0.1",
+  "description": "node.js convention/library for multiple nconf settings.",
+  "version": "0.0.2",
   "author": "Matthew Riley MacPherson <matt@lonelyvegan.com>",
   "repository": {
     "type": "git",
