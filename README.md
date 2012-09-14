@@ -27,7 +27,7 @@ Usage
 
 Works like [`nconf`](https://github.com/flatiron/nconf) otherwise:
 
-	'use strict'
+	'use strict';
 
 	var express = require('express')
 	var conf = require('nconfs').load()
@@ -39,7 +39,6 @@ Works like [`nconf`](https://github.com/flatiron/nconf) otherwise:
 	});
 
 	app.listen(conf.get('port'))
-
 
 Yup.
 
