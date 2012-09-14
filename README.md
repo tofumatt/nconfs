@@ -23,7 +23,7 @@ Usage
     var conf = require('nconfs').load()
 
     // Load extra confs:
-    var conf = require('nconfs').load('extras.json')
+    var conf = require('nconfs').load(null, 'extras.json')
 
 Works like [`nconf`](https://github.com/flatiron/nconf) otherwise:
 
